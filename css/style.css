@@ -1,0 +1,99 @@
+body{
+    background-color: #0D0D0D;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.inner-loading-screen {
+    z-index: 9;
+    position: absolute;
+    background-color: #0D0D0D;
+    display: flex;
+}
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+.sideBar{
+    height: 100vh;
+    position: fixed;
+    
+    background-color: #0D0D0D;
+    z-index:99999999;
+    left: 0;
+    cursor: pointer;
+}
+.navMenue{
+    width: 225px; 
+    
+}
+.linkNav ul{
+    list-style: none;
+    margin-top: 40px;
+}
+.linkNav ul li{
+    color: white;
+    margin-top: 20px;
+}
+.logo{
+    width: 90%;
+    margin-top: 30px;
+}
+.navHeader{
+    width: 60px;
+    align-items: center;
+
+    
+}
+
+.open-close-icon {
+    font-size: 40px;
+}
+
+.mealLayer{
+    position: absolute;
+    
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.mealContain:hover .mealLayer{
+    top: 0;
+    bottom: 0;
+    transition: .5s;
+    cursor: pointer;
+}
+.mealLayer h4 
+{
+    font-size: 30px;
+    /* color: black; */
+  
+}
+
+.mealLayer p{
+    font-size: 15px;
+}
+
+
+.detailsMeal ul  {
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+   
+}
+
+.detailsMeal ul li{
+     color: #055160;
+    background-color: #cff4fc;
+    border-radius: 4px;
+    border: 1px solid #b6effb;
+}
